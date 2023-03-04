@@ -10,13 +10,18 @@
 	<body onload="load()">
 		<div id="calculadora">
 			<div id="container">
-				<div id="tela"></div>
+				<div id="tela"><span id="saida"></span></div>
 				<div id="operadores">
-					<div class="botao"><span>+</span></div>
-					<div class="botao"><span>-</span></div>
-					<div class="botao"><span>*</span></div>
-					<div class="botao"><span>/</span></div>
-					<div class="botao" style="background-color: #444;"><span>=</span></div>
+					<div id="opcon">
+						<div class="botao"><span>+</span></div>
+						<div class="botao"><span>-</span></div>
+						<div class="botao"><span>*</span></div>
+						<div class="botao"><span>/</span></div>
+					</div>
+					<div id="incon">
+						<div class="botao"><span>C</span></div>
+						<div class="botao" style="background-color: #444;"><span>=</span></div>
+					</div>
 				</div>
 				<div id="teclado">
 				</div>
