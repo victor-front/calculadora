@@ -45,6 +45,10 @@ body, width{
 	background-color: #555;
 }
 
+.botao:focus{
+	outline: none;
+}
+
 #resultado{
 	display: flex;
 	background-color: #888;
@@ -57,4 +61,5 @@ body, width{
 	font-size: 25px;
 	color: #222;
 	align-items: center;
+	overflow: hidden;
 }
