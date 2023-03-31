@@ -10,6 +10,13 @@ body, width{
 	height: 100vh;
 }
 
+#title{
+	font-size: 2em;
+	margin-top: 10px;
+	text-shadow: 2px 2px 1px #666;
+	color: #222;
+}
+
 .fundo{
 	display: flex;
 	flex-direction: column;
@@ -62,4 +69,22 @@ body, width{
 	color: #222;
 	align-items: center;
 	overflow: hidden;
+}
+
+#footer{
+	background-color: #222;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #ddd;
+	font-size: .9em;
+	padding: 5px;
+	text-align: center;
+}
+
+#footer a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	text-decoration: underline;
 }
