@@ -1,53 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge">
-		<link rel="stylesheet" href="data/index.css">
-		<script defer src="data/index.js"></script>
-		<title>Calculadora</title>
-	</head>
-	<body>
-		<div class="fundo">
-			<h1 id="title">Rozavick</h1>
-			<div class="calculadora">
-				<h1>Calculadora</h1>
-				<p id="resultado"><span id="valor" style="text-align: right; width: 100%; margin-right: 5px;"></span></p>
-				<table>
-					<tr>
-						<td><button class="botao" onclick="cle()">C</button></td>
-						<td><button class="botao" onclick="back()"><</button></td>
-						<td><button class="botao" onclick="insert('/')">/</button></td>
-						<td><button class="botao" onclick="insert('*')">X</button></td>
-					</tr>
-					<tr>
-						<td><button class="botao" onclick="insert('7')">7</button></td>
-						<td><button class="botao" onclick="insert('8')">8</button></td>
-						<td><button class="botao" onclick="insert('9')">9</button></td>
-						<td><button class="botao" onclick="insert('-')">-</button></td>
-					</tr>
-					<tr>
-						<td><button class="botao" onclick="insert('4')">4</button></td>
-						<td><button class="botao" onclick="insert('5')">5</button></td>
-						<td><button class="botao" onclick="insert('6')">6</button></td>
-						<td><button class="botao" onclick="insert('+')">+</button></td>
-					</tr>
-					<tr>
-						<td><button class="botao" onclick="insert('1')">1</button></td>
-						<td><button class="botao" onclick="insert('2')">2</button></td>
-						<td><button class="botao" onclick="insert('3')">3</button></td>
-						<td rowspan="2"><button class="botao" style="height: 106px;" onclick="calc()">=</button></td>
-					</tr>
-					<tr>
-						<td colspan="2"><button class="botao" style="width: 106px;" onclick="insert(0)">0</button></td>
-						<td><button class="botao" onclick="insert('.')">.</button></td>
-					</tr>
-				</table>
-			</div>
-		</div>
-		<footer id="footer">
-			<p>Made By <strong><a href="https://victor-front.github.io/portfolio-victor/" rel="external" target="_self">Victor Front</a></strong></p>
-		</footer>
-	</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="data/style.css">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <main>
+            <section class="calculadora">
+                <p class="resultado"><span class="valor">a</span></p>
+                <section class="calculadora-body">
+                    <table>
+                        <tr>
+                            <td><button class="botao">C<botton></td>
+                            <td><button class=""><</button></td>
+                            <td><button class="">/</button></td>
+                            <td><button class="">X</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="">7</button></td>
+                            <td><button class="">8</button></td>
+                            <td><button class="">9</button></td>
+                            <td><button class="">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="">4</button></td>
+                            <td><button class="">5</button></td>
+                            <td><button class="">6</button></td>
+                            <td><button class="">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="">1</button></td>
+                            <td><button class="">2</button></td>
+                            <td><button class="">3</button></td>
+                            <td rowspan="2"><button class="">=</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button class="">0</button></td>
+                            <td><button class="">.</button></td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+        </main>
+        <footer><p>Made by <a href="#" rel="external" target="_self"><strong>Victor Front</strong></a></p></footer>
+    </body>
 </html>
