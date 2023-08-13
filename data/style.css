@@ -70,6 +70,15 @@ main{
     font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
+    transition: 150ms;
+}
+
+.botao:hover{
+    background-color: #333;
+}
+
+.botao:active{
+    background-color: #888;
 }
 
 .calculadora-body{
@@ -84,6 +93,7 @@ footer{
     padding: 5px;
     flex-shrink: 0;
     text-align: center;
+    background-color: #222;
 }
 
 footer a{
